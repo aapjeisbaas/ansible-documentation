@@ -47,6 +47,7 @@ When you install a collection with ``type: git``, the ``version`` key can refer 
      - name: namespace.name
        source: https://github.com/organization/repo_name.git
        type: git
+       version: 1.0.0
 
 You can also add roles to a ``requirements.yml`` file, under the ``roles`` key. The values follow the same format as a requirements file used in older Ansible releases.
 
