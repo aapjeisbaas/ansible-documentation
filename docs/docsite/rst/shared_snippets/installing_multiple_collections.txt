@@ -42,11 +42,10 @@ The ``type`` key can be set to ``file``, ``galaxy``, ``git``, ``url``, ``dir``, 
 When you install a collection with ``type: git``, the ``version`` key can refer to a branch or to a `git commit-ish <https://git-scm.com/docs/gitglossary#def_commit-ish>`_ object (commit or tag). For example:
 
 .. code-block:: yaml
-
    collections:
-     - name: https://github.com/organization/repo_name.git
-       type: git
-       version: devel
+    - name: nutanix.ncp
+      source: https://github.com/organization/repo_name.git
+      type: git
 
 You can also add roles to a ``requirements.yml`` file, under the ``roles`` key. The values follow the same format as a requirements file used in older Ansible releases.
 
