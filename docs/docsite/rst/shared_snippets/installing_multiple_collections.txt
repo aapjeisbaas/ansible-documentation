@@ -43,7 +43,7 @@ When you install a collection with ``type: git``, the ``version`` key can refer 
 
 .. code-block:: yaml
    collections:
-     - name: nutanix.ncp
+     - name: namespace.name
        source: https://github.com/organization/repo_name.git
        type: git
 
