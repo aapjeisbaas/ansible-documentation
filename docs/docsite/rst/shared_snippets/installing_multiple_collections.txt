@@ -43,9 +43,9 @@ When you install a collection with ``type: git``, the ``version`` key can refer 
 
 .. code-block:: yaml
    collections:
-    - name: nutanix.ncp
-      source: https://github.com/organization/repo_name.git
-      type: git
+     - name: nutanix.ncp
+       source: https://github.com/organization/repo_name.git
+       type: git
 
 You can also add roles to a ``requirements.yml`` file, under the ``roles`` key. The values follow the same format as a requirements file used in older Ansible releases.
 
