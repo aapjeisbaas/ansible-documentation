@@ -42,6 +42,7 @@ The ``type`` key can be set to ``file``, ``galaxy``, ``git``, ``url``, ``dir``, 
 When you install a collection with ``type: git``, the ``version`` key can refer to a branch or to a `git commit-ish <https://git-scm.com/docs/gitglossary#def_commit-ish>`_ object (commit or tag). For example:
 
 .. code-block:: yaml
+
    collections:
      - name: namespace.name
        source: https://github.com/organization/repo_name.git
